@@ -1,0 +1,49 @@
+TASK 1
+cd Desktop
+mkdir myProject
+cd myProject
+touch app.js
+cd Desktop
+mkdir myProject2
+cp app.js ~/Desktop/myProject2
+
+
+TASK 2
+touch exercise.txt
+mv  exercise.txt /tmp
+rm /tmp/exercise.txt
+
+TASK 3
+touch umuzi.txt recruits.txt cohort.txt
+nano umuzi.txt
+nano cohort.txt
+nano recruits.txt
+cat umuzi.txt cohort.txt recruits.txt
+cat umuzi.txt cohort.txt recruits.txt > summary.txt
+cat >> summary.txt(alt+A for appending)
+
+TASK 4
+locate umuzi
+locate umuzi > search_result.txt
+
+TASK 5
+mkdir mydocument 
+cd mydocument
+touch pad.txt
+cd Desktop
+mkdir work
+cd mydocument
+cp pad.txt ~/Desktop/pad_copy.txt
+sudo updatedb 
+cd -
+locate pad_copy.txt
+
+TASK 6
+find ./ -name *.pdf
+2.find ~ * .pdf >> umuzi.txt
+3.find ~/Desktop/ -mtime -1 -ls
+
+TASK 10
+1. nano my_bio.txt
+2. mkdir my_files  mv my_bio.txt ~/Desktop/my_files
+
